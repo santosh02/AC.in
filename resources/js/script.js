@@ -1,3 +1,13 @@
+/*Angular js*/
+/// <reference src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"/>
+var app=angular.module("myModule",[])
+    .controller("myController",function($scope){
+        $scope.header="header.html";
+
+    });
+/*Angular js*/
+
+
 /*Sider*/
 /*Sider*/
 

@@ -39,53 +39,7 @@
 <div class="container-fluid qabody">
     <div class="row">
         <!-- Siderbar left -->
-
-        <div class="col-md-3">
-            <div class="sidebar-left sidebar">
-                <div class="well">
-                    <ul class="nav ">
-                        <li class="nav-header"><strong>Core Java Interview Questions</strong></li>
-                        <li class="active"><a href="corejava-interview.html"><i class="fa fa-caret-right"></i>  10 Basic Questions</a>
-                        </li>
-                        <li><a href="inheritance-interview.html"><i class="fa fa-caret-right"></i>  Inheretance</a>
-                        </li>
-                        <li><a href="encapsulation-interview.html"><i class="fa fa-caret-right"></i>  Encapsulation</a>
-                        </li>
-                        <li><a href="jdbc-interview.html"><i class="fa fa-caret-right"></i>  JDBC</a>
-                        <li><a href="collection-interview.html"><i class="fa fa-caret-right"></i>  Collection</a>
-                        <li><a href="multithreading-interview.html"><i class="fa fa-caret-right"></i>  Multithreading</a>
-                        </li>
-                        <li class="nav-header"><strong>Web Service Interview Questions</strong></li>
-                        <li><a href="servlet-interview.html"><i class="fa fa-caret-right"></i>  Servlet</a>
-                        </li>
-                        <li><a href="jsp-interview.html"><i class="fa fa-caret-right"></i>  Jsp</a>
-                        </li>
-                        <li><a href="spring-interview.html"><i class="fa fa-caret-right"></i>  Spring</a>
-                        </li>
-                        <li><a href="springmvc-interview.html"><i class="fa fa-caret-right"></i>  Spring MVC</a>
-                        </li>
-                        <li><a href="struts-interview.html"><i class="fa fa-caret-right"></i>  Struts</a>
-                        </li>
-                        <li><a href="hibernate-interview.html"><i class="fa fa-caret-right"></i>  Hibernate</a>
-                        </li>
-                        <li><a href="maven-interview.html"><i class="fa fa-caret-right"></i>  Maven</a>
-                        </li>
-                        <li class="nav-header">Interview Experiencs</li>
-                        <li><a href="tips-interview.html"><i class="fa fa-caret-right"></i>  Tips</a>
-                        </li>
-                        <li><a href="topquestions-interview.html"><i class="fa fa-caret-right"></i>  Top Questions</a>
-                        </li>
-                        <li><a href="hr-interview.html"><i class="fa fa-caret-right"></i>  HR Interview Questions</a>
-                        </li>
-                        <li><a href="blogs-interview.html"><i class="fa fa-caret-right"></i>  Blogs</a>
-                        </li>
-                    </ul>
-                    
-                </div>
-                <!--/.well -->
-            </div>
-            <!--/sidebar-nav-fixed -->
-        </div>
+<div ng-include="'sidebarleft.html'"></div>
 
         <!-- sidebar left -->
         
@@ -226,12 +180,75 @@
         </div>
         <div class="panel panel-default green" id="panel10">
           <div class="panel-head" data-toggle="collapse" data-target="#collapse10">
-            <h4 class="panel-title"><a data-toggle="collapse" data-target="#collapse10" href="#collapse10"></a>10) What is platform?</h4>
+            <h4 class="panel-title"><a data-toggle="collapse" data-target="#collapse10" href="#collapse10"></a>10) What is static variable?</h4>
           </div>
 
           <div id="collapse10" class="panel-collapse collapse fade">
             <div class="panel-body">
-              <p>A platform is basically the hardware or software environment in which a program runs. There are two types of platforms software-based and hardware-based. Java provides software-based platform.</p>
+              <p>Static variable is used to refer the common property of all objects (that is not unique for each object) e.g. company name of employees,college name of students etc.</p>
+              <p>static variable gets memory only once in class area at the time of class loading.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default green" id="panel11">
+          <div class="panel-head" data-toggle="collapse" data-target="#collapse11">
+            <h4 class="panel-title"><a data-toggle="collapse" data-target="#collapse11" href="#collapse11"></a>11) What is static method?</h4>
+          </div>
+
+          <div id="collapse11" class="panel-collapse collapse fade">
+            <div class="panel-body">
+              <p>A static method belongs to the class rather than object of a class.</p>
+              <p>A static method can be invoked without the need for creating an instance of a class.</p>
+              <p>static method can access static data member and can change the value of it.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default green" id="panel12">
+          <div class="panel-head" data-toggle="collapse" data-target="#collapse12">
+            <h4 class="panel-title"><a data-toggle="collapse" data-target="#collapse12" href="#collapse12"></a>12) Why main method is static?</h4>
+          </div>
+
+          <div id="collapse12" class="panel-collapse collapse fade">
+            <div class="panel-body">
+              <p>Because object is not required to call static method if It were non-static method,jvm creats object first then call main() method that will lead to the problem of extra memory allocation.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default green" id="panel13">
+          <div class="panel-head" data-toggle="collapse" data-target="#collapse13">
+            <h4 class="panel-title"><a data-toggle="collapse" data-target="#collapse13" href="#collapse13"></a>13) What is package?</h4>
+          </div>
+
+          <div id="collapse13" class="panel-collapse collapse fade">
+            <div class="panel-body">
+              <p>A package is a group of similar type of classes interfaces and sub-packages. It provides access protection and removes naming collision.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default green" id="panel14">
+          <div class="panel-head" data-toggle="collapse" data-target="#collapse14">
+            <h4 class="panel-title"><a data-toggle="collapse" data-target="#collapse14" href="#collapse14"></a>14) Why string objects are immutable in java?</h4>
+          </div>
+
+          <div id="collapse14" class="panel-collapse collapse fade">
+            <div class="panel-body">
+              <p>Because java uses the concept of string literal. Suppose there are 5 reference variables,all referes to one object "sachin".If one reference variable changes the value of the object, it will be affected to all the reference variables. That is why string objects are immutable in java.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default green" id="panel15">
+          <div class="panel-head" data-toggle="collapse" data-target="#collapse15">
+            <h4 class="panel-title"><a data-toggle="collapse" data-target="#collapse15" href="#collapse15"></a>15) What is the purpose of toString() method in java ?</h4>
+          </div>
+
+          <div id="collapse15" class="panel-collapse collapse fade">
+            <div class="panel-body">
+              <p>The toString() method returns the string representation of any object. If you print any object, java compiler internally invokes the toString() method on the object. So overriding the toString() method, returns the desired output, it can be the state of an object etc. depends on your implementation.</p>
               
             </div>
           </div>

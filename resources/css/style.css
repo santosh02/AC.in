@@ -39,18 +39,18 @@
 .arrow.next {
     opacity: 0.2;
     right: 20px;
-    background-image: url(../assets/img/paddle_next_999.png);
+    background-image: url(../resources/images/paddle_next_999.png);
     transition: 0.2s linear all;
 }
 
 .arrow.prev:hover {
     opacity: 1;
-    background-image: url(../assets/img/paddle_prev_fff.png);
+    background-image: url(../resources/images/paddle_prev_fff.png);
 }
 
 .arrow.next:hover {
     opacity: 1;
-    background-image: url(../assets/img/paddle_next_fff.png);
+    background-image: url(../resources/images/paddle_next_fff.png);
 }
 
 

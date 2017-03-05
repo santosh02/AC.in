@@ -1,8 +1,10 @@
 /*bihar board image thumbnails*/
+.panela{
+  text-align: center;
+}
 
-
-.outerpadding{
-    padding:10% 0%;}
+/*.outerpadding{
+    padding:10% 0%;}*/
 .boximg{
   position:relative;
   overflow:hidden;

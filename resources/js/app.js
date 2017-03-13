@@ -100,8 +100,7 @@ angular.module('website', ['ngAnimate', 'ngTouch'])
             {image: 'resources/English20170106/English20170106-098.jpg', description: 'Image 00'},
             {image: 'resources/English20170106/English20170106-099.jpg', description: 'Image 00'},
             {image: 'resources/English20170106/English20170106-100.jpg', description: 'Image 00'},
-            {image: 'resources/English20170106/English20170106-101.jpg', description: 'Image 00'},
-            {image: 'resources/English20170106/English20170106-102.jpg', description: 'Image 00'}
+            {image: 'resources/English20170106/English20170106-101.jpg', description: 'Image 00'}
         ];
 
         $scope.direction = 'left';

@@ -68,7 +68,7 @@
     height: 936px;
     overflow: hidden;
     position: relative;
-    background: #e6e6e6;
+    background: #7f90e4;
     border: 20px solid #FFF;
     margin-top: 20px;
 }
@@ -95,14 +95,14 @@
 .arrow.prev {
     opacity: 0.2;
     left: 20px;
-    background-image: url(../resources/images/paddle_prev_999.png);
+    background-image: url(../images/paddle_prev_999.png);
     transition: 0.2s linear all;
 }
 
 .arrow.next {
     opacity: 0.2;
     right: 20px;
-    background-image: url(../resources/images/paddle_next_999.png);
+    background-image: url(../images/paddle_next_999.png);
     transition: 0.2s linear all;
 }
 
@@ -302,7 +302,7 @@ color: white;
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
 .footer1 {
-    background: #fff url("../resources/images/footer/footer-bg.png") repeat scroll left top;
+    background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
   padding-top: 40px;
   padding-right: 0;
   padding-bottom: 20px;

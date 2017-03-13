@@ -89,18 +89,18 @@
     height: 71px;
     outline: none;
     cursor: pointer;
-    background: url(../resources/images/blank.gif) no-repeat;
+    background: url(../images/blank.gif) no-repeat;
 }
 
 .arrow.prev {
-    opacity: 0.2;
+    opacity: 0.7;
     left: 20px;
     background-image: url(../images/paddle_prev_999.png);
     transition: 0.2s linear all;
 }
 
 .arrow.next {
-    opacity: 0.2;
+    opacity: 0.7;
     right: 20px;
     background-image: url(../images/paddle_next_999.png);
     transition: 0.2s linear all;
@@ -108,12 +108,12 @@
 
 .arrow.prev:hover {
     opacity: 1;
-    background-image: url(../resources/images/paddle_prev_fff.png);
+    background-image: url(../images/paddle_prev_fff.png);
 }
 
 .arrow.next:hover {
     opacity: 1;
-    background-image: url(../resources/images/paddle_next_fff.png);
+    background-image: url(../images/paddle_next_fff.png);
 }
 
 

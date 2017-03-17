@@ -1,6 +1,6 @@
 angular.module('website', ['ngAnimate', 'ngTouch'])
     .controller('MainCtrl', function ($scope) {
-        $scope.slides = [
+        $scope.slidesenglish = [
             {image: 'resources/English20170106/English20170106-001.jpg', description: 'Image 00'},
             {image: 'resources/English20170106/English20170106-002.jpg', description: 'Image 00'},
             {image: 'resources/English20170106/English20170106-003.jpg', description: 'Image 00'},
